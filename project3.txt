@@ -1,0 +1,40 @@
+package raji;
+
+public class Development implements web{
+	public void select()
+	System.out.println("select radiobutton tr.book one way flight");
+}
+@override
+public void click()
+    System.out.println("click on hotels option");
+}
+ @override
+ public void mousehover() {
+	 system.out.println("make my trip");
+package raji;
+
+public class Enduser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Development dl=new development();
+		d1.click();
+		d1.select();
+		d1.mousehover();
+		}
+
+}
+
+
+package raji;
+
+public class web {
+
+	public void select();
+	public void click();
+	public void mousehover();
+}
+	}
+
+}
+

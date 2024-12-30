@@ -1,0 +1,24 @@
+package amazon.raj;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+
+public class launch {
+
+	public static void main(String[] args)throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.amazon.com/in/");
+		Thread.sleep(6000);
+		driver.manage().window().maximize();
+		Thread.sleep(7000);
+		driver.manage().window().minimize();
+		Thread.sleep(7000);
+		driver.close();
+		Thread.sleep(4000);
+	}
+
+}
+ 
